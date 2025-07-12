@@ -2,35 +2,43 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Gulf of America (GOA)</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <!-- Tailwind CSS CDN -->
     <script src="https://cdn.tailwindcss.com"></script>
-    <script>
-      tailwind.config = {
-        theme: {
-          extend: {
-            colors: {
-              'dark-blue': '#0a3161',
-              'burgundy': '#b31942',
-            },
-            fontFamily: {
-              bebas: ['Bebas Neue', 'sans-serif'],
-            },
-          }
-        }
+
+    <!-- Шрифт Bebas Neue -->
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet" />
+    <style>
+      .font-bebas {
+        font-family: 'Bebas Neue', cursive;
       }
-    </script>
 
-    <!-- Подключение Google Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+      .bg-dark-blue {
+        background-color: #0a3161;
+      }
+
+      .bg-burgundy {
+        background-color: #b31942;
+      }
+    </style>
   </head>
+  <body class="bg-dark-blue text-white font-bebas">
+    <!-- 🔤 ЯЗЫКИ -->
+    <div class="flex justify-end gap-2 p-4">
+      <button class="lang-btn" data-lang="en">🇬🇧</button>
+      <button class="lang-btn" data-lang="ru">🇷🇺</button>
+      <button class="lang-btn" data-lang="zh">🇨🇳</button>
+      <button class="lang-btn" data-lang="de">🇩🇪</button>
+      <button class="lang-btn" data-lang="es">🇪🇸</button>
+      <button class="lang-btn" data-lang="it">🇮🇹</button>
+    </div>
 
-  <body class="bg-dark-blue font-bebas">
+    <!-- 👇 КОНТЕНТ -->
     <div id="root"></div>
 
-    <!-- Подключение основного скрипта -->
+    <!-- JS -->
     <script type="module" src="main.js"></script>
   </body>
 </html>
