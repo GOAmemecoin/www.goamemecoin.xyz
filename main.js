@@ -84,7 +84,7 @@ window.renderApp = () => {
             React.createElement(
               'button',
               {
-                className: 'bg-white text-dark-blue px-6 py-3 rounded hover:bg-gray-200 transition',
+                className: 'bg-burgundy text-white px-6 py-3 rounded hover:bg-[#921f36] transition',
                 key: 'wallet',
               },
               t.wallet
