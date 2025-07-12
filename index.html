@@ -4,11 +4,33 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>GOA Meme Coin - Gulf of America</title>
-  <link href="tailwind.css" rel="stylesheet" />
-</head>
-<body class="bg-[#0a3161] text-white font-sans">
-  <div id="root"></div>
 
+  <!-- Подключаем Tailwind через CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Кастомизация Tailwind -->
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            'dark-blue': '#0a3161',
+            'burgundy': '#b31942',
+          },
+          fontFamily: {
+            sans: ['Montserrat', 'sans-serif'],
+            bebas: ['Bebas Neue', 'cursive'],
+          },
+        },
+      }
+    }
+  </script>
+
+  <!-- Шрифты -->
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat&display=swap" rel="stylesheet">
+</head>
+<body class="bg-dark-blue text-white font-sans">
+  <div id="root"></div>
   <script src="main.js" type="module"></script>
 </body>
 </html>
