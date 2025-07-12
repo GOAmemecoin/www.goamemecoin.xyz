@@ -1,6 +1,8 @@
 import React from 'https://cdn.skypack.dev/react';
 import ReactDOM from 'https://cdn.skypack.dev/react-dom';
 
+console.log('✅ JS загружен, React стартует');
+
 function Hero() {
   return (
     <section className="min-h-screen flex flex-col items-center justify-center bg-dark-blue p-6">
