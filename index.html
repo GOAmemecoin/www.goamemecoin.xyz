@@ -19,10 +19,11 @@
     </style>
   </head>
   <body class="bg-dark-blue text-white font-bebas">
+
     <!-- ЯЗЫК -->
     <div class="relative flex justify-end p-4">
       <button id="langToggle" class="px-3 py-1 bg-white text-black rounded shadow">
-        🌐 EN
+        EN
       </button>
       <div id="langMenu" class="absolute right-0 mt-10 bg-white text-black rounded shadow hidden z-50">
         <button class="lang-btn block px-4 py-2 w-full text-left hover:bg-gray-200" data-lang="en">EN</button>
@@ -34,7 +35,28 @@
       </div>
     </div>
 
+    <!-- Контент -->
     <div id="root"></div>
+
     <script type="module" src="main.js"></script>
+    <script>
+      // ЯЗЫК: обработка выпадения меню
+      const toggleBtn = document.getElementById("langToggle");
+      const menu = document.getElementById("langMenu");
+
+      toggleBtn.addEventListener("click", () => {
+        menu.classList.toggle("hidden");
+      });
+
+      document.querySelectorAll(".lang-btn").forEach(btn => {
+        btn.addEventListener("click", () => {
+          const lang = btn.getAttribute("data-lang");
+          window.currentLang = lang;
+          toggleBtn.textContent = lang.toUpperCase();
+          menu.classList.add("hidden");
+          window.renderApp();
+        });
+      });
+    </script>
   </body>
 </html>
