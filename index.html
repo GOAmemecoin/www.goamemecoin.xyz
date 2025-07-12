@@ -21,20 +21,21 @@
   <body class="bg-dark-blue text-white font-bebas">
 
     <!-- ЯЗЫК -->
-    <div class="relative flex justify-end p-4">
-      <button id="langToggle" class="px-3 py-1 bg-white text-black rounded shadow">
-        EN
-      </button>
-      <div id="langMenu" class="absolute mt-10 w-full bg-white text-black rounded shadow hidden z-50">
-        <button class="lang-btn block px-4 py-2 w-full text-left hover:bg-gray-200" data-lang="en">EN</button>
-        <button class="lang-btn block px-4 py-2 w-full text-left hover:bg-gray-200" data-lang="ru">RU</button>
-        <button class="lang-btn block px-4 py-2 w-full text-left hover:bg-gray-200" data-lang="zh">ZH</button>
-        <button class="lang-btn block px-4 py-2 w-full text-left hover:bg-gray-200" data-lang="de">DE</button>
-        <button class="lang-btn block px-4 py-2 w-full text-left hover:bg-gray-200" data-lang="es">ES</button>
-        <button class="lang-btn block px-4 py-2 w-full text-left hover:bg-gray-200" data-lang="it">IT</button>
-      </div>
+    <div class="flex justify-end p-4">
+  <div class="relative">
+    <button id="langToggle" class="px-3 py-1 bg-white text-black rounded shadow w-16">
+      EN
+    </button>
+    <div id="langMenu" class="absolute top-full left-0 mt-1 w-16 bg-white text-black rounded shadow hidden z-50">
+      <button class="lang-btn block px-2 py-1 w-full text-left hover:bg-gray-200" data-lang="en">EN</button>
+      <button class="lang-btn block px-2 py-1 w-full text-left hover:bg-gray-200" data-lang="ru">RU</button>
+      <button class="lang-btn block px-2 py-1 w-full text-left hover:bg-gray-200" data-lang="zh">ZH</button>
+      <button class="lang-btn block px-2 py-1 w-full text-left hover:bg-gray-200" data-lang="de">DE</button>
+      <button class="lang-btn block px-2 py-1 w-full text-left hover:bg-gray-200" data-lang="es">ES</button>
+      <button class="lang-btn block px-2 py-1 w-full text-left hover:bg-gray-200" data-lang="it">IT</button>
     </div>
-
+  </div>
+</div>
     <!-- Контент -->
     <div id="root"></div>
 
