@@ -1,0 +1,313 @@
+.home-container {
+  width: 100%;
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+ 
+.home-text10 {
+  display: inline-block;
+}
+ 
+.home-text11 {
+  display: inline-block;
+}
+ 
+.home-text12 {
+  display: inline-block;
+  line-height: 1;
+}
+ 
+.home-text13 {
+  display: inline-block;
+}
+ 
+.home-text14 {
+  color: var(--dl-color-theme-secondary1);
+  display: inline-block;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.15;
+}
+ 
+.home-text15 {
+  display: inline-block;
+}
+ 
+.home-text16 {
+  color: var(--dl-color-theme-primary1);
+  display: inline-block;
+  font-size: 43px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1;
+}
+ 
+.home-text17 {
+  fill: var(--dl-color-theme-secondary1);
+  color: var(--dl-color-theme-secondary1);
+  display: inline-block;
+}
+ 
+.home-text18 {
+  fill: var(--dl-color-theme-secondary1);
+  color: var(--dl-color-theme-secondary1);
+  display: inline-block;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1;
+}
+ 
+.home-text19 {
+  fill: var(--dl-color-theme-primary2);
+  color: var(--dl-color-theme-secondary1);
+  display: inline-block;
+}
+ 
+.home-text20 {
+  fill: var(--dl-color-theme-secondary1);
+  color: var(--dl-color-theme-secondary1);
+  display: inline-block;
+}
+ 
+.home-text21 {
+  fill: var(--dl-color-theme-secondary1);
+  color: var(--dl-color-theme-primary1);
+  display: inline-block;
+  line-height: 1.5;
+}
+ 
+.home-text22 {
+  fill: var(--dl-color-theme-secondary1);
+  color: var(--dl-color-theme-secondary1);
+  display: inline-block;
+}
+ 
+.home-text23 {
+  fill: var(--dl-color-theme-secondary1);
+  color: var(--dl-color-theme-secondary1);
+  display: inline-block;
+}
+ 
+.home-text24 {
+  fill: var(--dl-color-theme-secondary1);
+  color: var(--dl-color-theme-secondary1);
+  display: inline-block;
+}
+ 
+.home-text25 {
+  fill: var(--dl-color-theme-secondary1);
+  color: var(--dl-color-theme-secondary1);
+  display: inline-block;
+}
+ 
+.home-text26 {
+  display: inline-block;
+}
+ 
+.home-text27 {
+  display: inline-block;
+}
+ 
+.home-text28 {
+  display: inline-block;
+}
+ 
+.home-text29 {
+  display: inline-block;
+}
+ 
+.home-text30 {
+  display: inline-block;
+}
+ 
+.home-text31 {
+  fill: var(--dl-color-theme-secondary1);
+  color: var(--dl-color-theme-secondary1);
+  display: inline-block;
+}
+ 
+.home-text32 {
+  fill: var(--dl-color-theme-secondary1);
+  color: var(--dl-color-theme-secondary1);
+  display: inline-block;
+}
+ 
+.home-text33 {
+  fill: var(--dl-color-theme-secondary1);
+  color: var(--dl-color-theme-secondary1);
+  display: inline-block;
+}
+ 
+.home-text34 {
+  fill: var(--dl-color-theme-secondary1);
+  color: var(--dl-color-theme-secondary1);
+  display: inline-block;
+}
+ 
+.home-text35 {
+  fill: var(--dl-color-theme-secondary1);
+  color: var(--dl-color-theme-secondary1);
+  display: inline-block;
+}
+ 
+.home-text36 {
+  fill: var(--dl-color-theme-secondary1);
+  color: var(--dl-color-theme-secondary1);
+  display: inline-block;
+}
+ 
+.home-text37 {
+  fill: var(--dl-color-theme-secondary1);
+  color: var(--dl-color-theme-secondary1);
+  display: inline-block;
+}
+ 
+.home-text38 {
+  fill: var(--dl-color-theme-secondary1);
+  color: var(--dl-color-theme-secondary1);
+  display: inline-block;
+}
+ 
+.home-text39 {
+  fill: var(--dl-color-theme-secondary1);
+  color: var(--dl-color-theme-secondary1);
+  display: inline-block;
+}
+ 
+.home-text40 {
+  color: var(--dl-color-theme-primary1);
+  display: inline-block;
+}
+ 
+.home-text41 {
+  color: var(--dl-color-theme-primary1);
+  display: inline-block;
+  font-size: 43px;
+  font-style: normal;
+  font-weight: 700;
+}
+ 
+.home-navlink {
+  display: contents;
+}
+ 
+.home-image {
+  right: 75px;
+  width: 75px;
+  bottom: 100px;
+  z-index: 9999;
+  position: fixed;
+  object-fit: cover;
+  text-decoration: none;
+}
+ 
+@media(max-width: 1600px) {
+  .home-text21 {
+    color: var(--dl-color-theme-primary1);
+    font-size: 16px;
+    line-height: 1.5;
+  }
+}
+ 
+@media(max-width: 1200px) {
+  .home-text16 {
+    color: var(--dl-color-theme-primary1);
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .home-text17 {
+    fill: var(--dl-color-theme-secondary1);
+    color: var(--dl-color-theme-secondary1);
+  }
+  .home-text18 {
+    fill: var(--dl-color-theme-secondary1);
+    color: var(--dl-color-theme-secondary1);
+  }
+}
+ 
+@media(max-width: 991px) {
+  .home-image {
+    width: 55px;
+  }
+}
+ 
+@media(max-width: 767px) {
+  .home-text12 {
+    box-shadow: inherit;
+    line-height: 1;
+  }
+  .home-image {
+    right: 35px;
+    width: 40px;
+  }
+}
+ 
+@media(max-width: 479px) {
+  .home-text12 {
+    box-shadow: inherit;
+    line-height: 1.15;
+  }
+  .home-text14 {
+    color: var(--dl-color-theme-secondary1);
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.15;
+  }
+  .home-text16 {
+    color: var(--dl-color-theme-primary1);
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1;
+  }
+  .home-text17 {
+    color: var(--dl-color-theme-secondary1);
+    font-size: 16px;
+    font-style: inherit;
+    font-weight: 400;
+    line-height: 1;
+  }
+  .home-text18 {
+    color: var(--dl-color-theme-secondary1);
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1;
+  }
+  .home-text20 {
+    color: var(--dl-color-theme-secondary1);
+    font-size: 33px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.15;
+  }
+  .home-text21 {
+    color: var(--dl-color-theme-primary1);
+    font-size: 16px;
+    line-height: 1;
+  }
+  .home-text22 {
+    color: var(--dl-color-theme-secondary1);
+  }
+  .home-text23 {
+    color: var(--dl-color-theme-secondary1);
+  }
+  .home-text25 {
+    color: var(--dl-color-theme-secondary1);
+  }
+  .home-text32 {
+    color: var(--dl-color-theme-secondary1);
+  }
+  .home-text41 {
+    color: var(--dl-color-theme-primary1);
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+  }
+}
